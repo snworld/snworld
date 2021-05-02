@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 // import Viewer from 'react-viewer';
 import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
