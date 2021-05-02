@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Viewer from 'react-viewer';
+// import Viewer from 'react-viewer';
 import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 
 const Project = () => {
 
-  const [visibleProject, setVisibleProject] = useState(false)
+  // const [visibleProject, setVisibleProject] = useState(false)
 
   const projects = useSelector(state => state.projects)
 
