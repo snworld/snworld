@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-// import Viewer from 'react-viewer';
+import React, { useEffect, useState } from 'react'
+import Viewer from 'react-viewer';
 import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 
 const Project = () => {
 
-  // const [visibleProject, setVisibleProject] = useState(false)
+  const [visibleProject, setVisibleProject] = useState(false)
 
   const projects = useSelector(state => state.projects)
 
@@ -34,13 +34,13 @@ const Project = () => {
               <OpenOutline className="ionicon" color={'#fff'} />
             </a>
           </div>
-          {/* <img onClick={() => { setVisibleProject(true); } } src={`data:image/png;base64,${ project.thumbnail }`} alt="project-image1" className="img-fluid d-block" style={{width: "700px"}} />
+          <img onClick={() => { setVisibleProject(true); } } src={`data:image/png;base64,${ project.thumbnail }`} alt="project-image1" className="img-fluid d-block" style={{width: "700px"}} />
           <Viewer
             visible={visibleProject}
             onClose={() => { setVisibleProject(false); } }
             images={[{src: `data:image/png;base64,${ project.thumbnail }`}]}
             zoomable={false} attribute={false} rotatable={false} scalable={false} noResetZoomAfterChange={false}
-          /> */}
+          />
         </div>
         <div className="col-12 my-3">
           <div className="lists d-flex flex-wrap justify-content-evenly">
