@@ -24,12 +24,12 @@ const Navbar = () => {
             Projects
           </NavLink>
         </li>
-        <li className="nav-item">
+        {/*<li className="nav-item">
           <NavLink exact to="/video" activeClassName='active' className="nav-link">
             <VideocamOutline className="ionicon" color={'#fff'} />
             Video
           </NavLink>
-        </li>
+        </li>*/}
         <li className="nav-item">
           <NavLink exact to="/contact" activeClassName='active' className="nav-link">
             <ChatbubblesOutline className="ionicon" color={'#fff'} />
