@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { PersonCircleOutline, ConstructOutline, ReceiptOutline, VideocamOutline, ChatbubblesOutline } from 'react-ionicons'
+// VideocamOutline
 
 const Navbar = () => {
   return (
