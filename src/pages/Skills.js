@@ -35,24 +35,24 @@ const Skills = () => {
                 <ReactTooltip place="top" id="tailwindcss" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              {/*<div className="skill">
+              <div className="skill">
                 <button data-tip='Material UI' data-for="materialui" style={{background: "url('https://api.iconify.design/logos:material-ui.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="materialui" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>*/}
+              </div>
               <div className="skill">
                 <button data-tip='JavaScript' data-for="javascript" style={{background: "url('https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png') no-repeat center center / contain", width: "32px"}}>
                 </button>
                 <ReactTooltip place="top" id="javascript" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              {/*<div className="skill">
+              <div className="skill">
                 <button data-tip='jQuery' data-for="jquery" style={{background: "url('https://creativo-websolutions.com/my_files/2020/04/iconfinder_jquery_3069646.png') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="jquery" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>*/}
+              </div>
               <div className="skill">
                 <button data-tip='React JS' data-for="react" style={{background: "url('https://api.iconify.design/logos:react.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
