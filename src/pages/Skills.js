@@ -97,12 +97,12 @@ const Skills = () => {
                 <ReactTooltip place="top" id="nodeexpress" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {<div className="skill">
                 <button data-tip='Express JS' data-for="postgresql" style={{background: "url('https://api.iconify.design/simple-icons:express.svg?color=%23eee') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="postgresql" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>}
               <div className="skill">
                 <button data-tip='Python' data-for="p" style={{background: "url('https://api.iconify.design/logos:python.svg') no-repeat center center / contain", width: "32px"}}>
                 </button>
@@ -115,12 +115,12 @@ const Skills = () => {
                 <ReactTooltip place="top" id="django" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {/*<div className="skill">
                 <button data-tip='Flask' data-for="flask" style={{background: `url('https://i.pinimg.com/originals/87/bd/39/87bd39372d14ae2acda0121d9bc69d9c.png') no-repeat center center / contain`, width: "36px"}}>
                 </button>
                 <ReactTooltip place="top" id="flask" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>*/}
               <div className="skill">
                 <button data-tip='PHP' data-for="php" style={{background: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/1280px-Webysther_20160423_-_Elephpant.svg.png') no-repeat center center / contain`}}>
                 </button>
@@ -151,14 +151,14 @@ const Skills = () => {
                 <ReactTooltip place="top" id="mongodb" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {/*<div className="skill">
                 <button data-tip='PostgreSQL' data-for="postgresql" style={{background: "url('https://api.iconify.design/logos:postgresql.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="postgresql" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>*/}
               <div className="skill">
-                <button data-tip='AWS' data-for="aws" style={{background: `url('${aws}') no-repeat center center / contain`, width: "34px"}}>
+                <button data-tip='AWS' data-for="aws" style={{background: `url('${aws}') no-repeat center center / contain`, width: "42px"}}>
                 </button>
                 <ReactTooltip place="top" id="aws" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
@@ -201,6 +201,12 @@ const Skills = () => {
                 <ReactTooltip place="top" id="vscode" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
+              <div className="skill">
+                <button data-tip='Chrome' data-for="chrome" style={{background: "url('https://api.iconify.design/logos:chrome.svg') no-repeat center center / contain", width: "32px"}}>
+                </button>
+                <ReactTooltip place="top" id="chrome" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
+                </ReactTooltip>
+              </div>
             </div>
           </div>
         </div>
@@ -228,6 +234,13 @@ const Skills = () => {
                 <button data-tip='Machine Learning' data-for="machinelearning" style={{width: "38px", background: "url('data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEwIDUxMCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCA1MTAgNTEwIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im0xMzUgMzE1aC00NWMtMzMuMDg0IDAtNjAtMjYuOTE2LTYwLTYwdi0zMi41NzRsMTUtMTIuNDI2IDE1IDEyLjQyN3YzMi41NzNjMCAxNi41NDIgMTMuNDU4IDMwIDMwIDMwaDQ1bDE1IDE3eiIgZmlsbD0iIzU1Njk2ZSIvPjxwYXRoIGQ9Im00NSAyMjVjLTI0LjgxMyAwLTQ1LTIwLjE4Ny00NS00NXYtMTVoMzB2MTVjMCA4LjI3MSA2LjcyOSAxNSAxNSAxNXMxNS02LjcyOSAxNS0xNXYtMTVoMzB2MTVjMCAyNC44MTMtMjAuMTg3IDQ1LTQ1IDQ1eiIgZmlsbD0iI2ZmNWM1YyIvPjxwYXRoIGQ9Im00NTAgMjU1YzAgMTYuNTQyLTEzLjQ1NyAzMC0zMCAzMC0xNC4wNSAwLTMwLjkwNSAwLTQ1IDBsLTE1IDE1IDE1IDE1aDQ1YzMzLjA4MyAwIDYwLTI2LjkxNSA2MC02MCAwLTYuNDIxIDAtMjYuMTU2IDAtMzIuNTdsLTE1LTEyLjQzLTE1IDEyLjQzdjEwLjA3eiIgZmlsbD0iIzNmNGE0YSIvPjxwYXRoIGQ9Im00ODAgMTgwYzAgNC4xMzYtMS42ODIgNy44ODYtNC4zOTggMTAuNjAyLTUuODYzIDUuODYzLTE1LjMzNiA1Ljg2Ny0yMS4yMDMgMC0yLjcxNy0yLjcxNi00LjM5OS02LjQ2Ni00LjM5OS0xMC42MDIgMC01LjI0NiAwLTkuNzU0IDAtMTUtMTAuNDkyIDAtMTkuNTA4IDAtMzAgMHYxNWMwIDI0LjgxMiAyMC4xODYgNDUgNDUgNDUgMjQuODEyIDAgNDUtMjAuMTg2IDQ1LTQ1IDAtNS4yNDYgMC05Ljc1NCAwLTE1LTEwLjQ5MiAwLTE5LjUwOCAwLTMwIDB6IiBmaWxsPSIjZTIwMDU5Ii8+PHBhdGggZD0ibTE5NSAyMjV2MzBsMzAgMTAgMzAtMTAgMTAtMTUtMTAtMTUtMzAtMTB6IiBmaWxsPSIjOTNiZGNmIi8+PHBhdGggZD0ibTMxNSAyMjUtMzAtMTAtMzAgMTB2MzBsMzAgMTAgMzAtMTBjMC0xMC40OTIgMC0xOS41MDggMC0zMHoiIGZpbGw9IiM3YmFlYzAiLz48cGF0aCBkPSJtMjQwIDQyLjQyOXYzMi41NzFsNy41IDEwIDcuNS0xMCAxMC0xNS41LTEwLTE0LjUtNi4zNzUtOC43NXoiIGZpbGw9IiM5M2JkY2YiLz48cGF0aCBkPSJtMjYwLjc1IDM2LjUtNS43NSA4LjV2MzBsNy41IDEwIDcuNS0xMGMwLTYuNDIxIDAtMjYuMTU2IDAtMzIuNTd6IiBmaWxsPSIjN2JhZWMwIi8+PHBhdGggZD0ibTI0MCAwYy0xMC40OTIgMC0xOS41MDggMC0zMCAwIDAgMjQuODEyIDIwLjE4NiA0NSA0NSA0NWwxMC0xNS0xMC0xNWMtOC4yNyAwLTE1LTYuNzI5LTE1LTE1eiIgZmlsbD0iIzdiYWVjMCIvPjxwYXRoIGQ9Im0zMDAgMGMtMTAuNDkyIDAtMTkuNTA4IDAtMzAgMCAwIDguMjcxLTYuNzI4IDE1LTE1IDE1djMwYzI0LjgxMiAwIDQ1LTIwLjE4NiA0NS00NXoiIGZpbGw9IiM2OWEwYWUiLz48cGF0aCBkPSJtMTUwIDc1djE1MGgxMDVsMTAtNzUtMTAtNzVjLTI4LjI3OCAwLTg4LjUyNyAwLTEwNSAweiIgZmlsbD0iI2IwZDNlNyIvPjxwYXRoIGQ9Im0zNjAgMjI1YzAtMTAuMTI4IDAtMTM5Ljg3MSAwLTE1MC0yOC4yNzggMC04OC41MjcgMC0xMDUgMHYxNTB6IiBmaWxsPSIjOTNiZGNmIi8+PHBhdGggZD0ibTEzNSAyNTV2MTIxLjg5MWw2MCA4LjEwOSA2MC0xMCAxMC02MC0xMC02MGMtMTQuNTE4IDAtMTA1LjM4NiAwLTEyMCAweiIgZmlsbD0iIzJiZWNmZCIvPjxwYXRoIGQ9Im0zNzUgMjU1Yy0xNC41MTggMC0xMDUuMzg2IDAtMTIwIDB2MTIwbDYwIDEwIDYwLTguMDgyYzAtNi42OTQgMC0xMTUuMTc0IDAtMTIxLjkxOHoiIGZpbGw9IiMyYmQxZmQiLz48cGF0aCBkPSJtMjEwIDEzNWgzMHYzMGgtMzB6IiBmaWxsPSIjNTU2OTZlIi8+PHBhdGggZD0ibTI3MCAxMzVoMzB2MzBoLTMweiIgZmlsbD0iIzNmNGE0YSIvPjxwYXRoIGQ9Im0xNTAgMzc1Yy0zMy4xMzYgMC02MCAyNi44NjItNjAgNjB2MTVjMCAzMy4xMzYgMjYuODYyIDYwIDYwIDYwaDEwNWwxMC02Ny41LTEwLTY3LjVjLTI4LjI3OCAwLTg4LjUyNyAwLTEwNSAweiIgZmlsbD0iIzkzYmRjZiIvPjxwYXRoIGQ9Im00MjAgNDUwYzAtNS4yNDYgMC05Ljc1NCAwLTE1IDAtMzMuMTM2LTI2Ljg2Mi02MC02MC02MC0yOC4yNzggMC04OC41MjcgMC0xMDUgMHYxMzVoMTA1YzMzLjEzNiAwIDYwLTI2Ljg2MiA2MC02MHoiIGZpbGw9IiM3YmFlYzAiLz48cGF0aCBkPSJtMjcwIDQyN2gzMHYzMGgtMzB6IiBmaWxsPSIjM2Y0YTRhIi8+PHBhdGggZD0ibTMzMCA0MjdoMzB2MzBoLTMweiIgZmlsbD0iIzNmNGE0YSIvPjxnIGZpbGw9IiM1NTY5NmUiPjxwYXRoIGQ9Im0yMTAgNDI3aDMwdjMwaC0zMHoiLz48cGF0aCBkPSJtMTUwIDQyN2gzMHYzMGgtMzB6Ii8+PC9nPjwvZz48L3N2Zz4=') no-repeat center center / contain"}}>
                 </button>
                 <ReactTooltip place="top" id="machinelearning" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
+                </ReactTooltip>
+              </div>
+
+              <div className="skill">
+                <button data-tip='Computer Engineering' data-for="engineering" style={{background: "url('https://api.iconify.design/flat-color-icons:engineering.svg') no-repeat center center / contain"}}>
+                </button>
+                <ReactTooltip place="top" id="engineering" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
 
