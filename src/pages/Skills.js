@@ -1,6 +1,5 @@
 import React from 'react'
 import htmlcss from '../img/html+css.svg'
-import symfony from '../img/symfony.png'
 import aws from '../img/aws2.svg'
 import ReactTooltip from 'react-tooltip'
 
@@ -65,7 +64,7 @@ const Skills = () => {
                 <ReactTooltip place="top" id="redux" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              {/*<div className="skill">
+              <div className="skill">
                 <button data-tip='Angular JS' data-for="angular" style={{background: "url('https://api.iconify.design/logos:angular-icon.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="angular" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
@@ -78,11 +77,11 @@ const Skills = () => {
                 </ReactTooltip>
               </div>
               <div className="skill">
-                <button data-tip='TypeScript' data-for="ts" style={{background: "url('https://api.iconify.design/logos:typescript-icon.svg') no-repeat center center / contain", width: "34px", borderRadius: "10px"}}>
+                <button data-tip='TypeScript' data-for="ts" style={{background: "url('https://api.iconify.design/logos:typescript-icon.svg') no-repeat center center / contain", width: "32px"}}>
                 </button>
                 <ReactTooltip place="top" id="ts" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>*/}
+              </div>
             </div>
           </div>
         </div>
@@ -92,39 +91,33 @@ const Skills = () => {
             <h6 className="text-center">Back End</h6>
             <div className="skills mt-3 text-center">
               <div className="skill">
-                <button data-tip='Node JS' data-for="nodeexpress" style={{background: "url('https://api.iconify.design/logos:nodejs-icon.svg') no-repeat center center / contain", width: "32px"}}>
+                <button data-tip='Node JS' data-for="nodeexpress" style={{background: "url('https://api.iconify.design/logos:nodejs-icon.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="nodeexpress" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              {<div className="skill">
+              <div className="skill">
                 <button data-tip='Express JS' data-for="postgresql" style={{background: "url('https://api.iconify.design/simple-icons:express.svg?color=%23eee') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="postgresql" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>}
-              <div className="skill">
-                <button data-tip='Python' data-for="p" style={{background: "url('https://api.iconify.design/logos:python.svg') no-repeat center center / contain", width: "32px"}}>
-                </button>
-                <ReactTooltip place="top" id="p" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
-                </ReactTooltip>
               </div>
               <div className="skill">
-                <button data-tip='Django' data-for="django" style={{background: `url('https://api.iconify.design/vscode-icons:file-type-django.svg') no-repeat center center / contain`}}>
+                <button data-tip='Django' data-for="django" style={{background: `url('https://api.iconify.design/vscode-icons:file-type-django.svg') no-repeat center center / contain`, width: "38px"}}>
                 </button>
                 <ReactTooltip place="top" id="django" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              {/*<div className="skill">
-                <button data-tip='Flask' data-for="flask" style={{background: `url('https://i.pinimg.com/originals/87/bd/39/87bd39372d14ae2acda0121d9bc69d9c.png') no-repeat center center / contain`, width: "36px"}}>
+              <div className="skill">
+                <button data-tip='Flask' data-for="flask" style={{background: `url('https://api.iconify.design/cib:flask.svg?color=%23eee') no-repeat center center / contain`, width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="flask" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>*/}
+              </div>
               <div className="skill">
-                <button data-tip='PHP' data-for="php" style={{background: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/1280px-Webysther_20160423_-_Elephpant.svg.png') no-repeat center center / contain`}}>
+                <button data-tip='Java Spring Boot' data-for="spring-boot" style={{background: `url('https://api.iconify.design/logos:java.svg') no-repeat center center / contain`, width: "36px"}}>
                 </button>
-                <ReactTooltip place="top" id="php" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
+                <ReactTooltip place="top" id="spring-boot" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
               <div className="skill">
@@ -134,13 +127,13 @@ const Skills = () => {
                 </ReactTooltip>
               </div>
               <div className="skill">
-                <button data-tip='Symphony' data-for="symphony" style={{background: `url('${symfony}') no-repeat center center / contain`, width: "32px"}}>
+                <button data-tip='CodeIgniter' data-for="symfony" style={{background: `url('https://api.iconify.design/cib:codeigniter.svg?color=%23dd4814') no-repeat center center / contain`, width: "34px"}}>
                 </button>
-                <ReactTooltip place="top" id="symphony" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
+                <ReactTooltip place="top" id="symfony" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
               <div className="skill">
-                <button data-tip='MySQL' data-for="mysql" style={{background: "url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Antu_mysql-workbench.svg/1024px-Antu_mysql-workbench.svg.png') no-repeat center center / contain", width: "36px", borderRadius: "10px"}}>
+                <button data-tip='MySQL' data-for="mysql" style={{background: "url('https://api.iconify.design/cib:mysql.svg?color=%23fff') no-repeat center center / contain", width: "38px"}}>
                 </button>
                 <ReactTooltip place="top" id="mysql" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
@@ -151,12 +144,12 @@ const Skills = () => {
                 <ReactTooltip place="top" id="mongodb" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              {/*<div className="skill">
+              <div className="skill">
                 <button data-tip='PostgreSQL' data-for="postgresql" style={{background: "url('https://api.iconify.design/logos:postgresql.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="postgresql" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>*/}
+              </div>
               <div className="skill">
                 <button data-tip='AWS' data-for="aws" style={{background: `url('${aws}') no-repeat center center / contain`, width: "42px"}}>
                 </button>
@@ -184,7 +177,7 @@ const Skills = () => {
                 </ReactTooltip>
               </div>
               <div className="skill">
-                <button data-tip='Figma' data-for="figma" style={{background: "url('https://api.iconify.design/grommet-icons:figma.svg') no-repeat center center / contain", width: "32px"}}>
+                <button data-tip='Figma' data-for="figma" style={{background: "url('https://api.iconify.design/grommet-icons:figma.svg') no-repeat center center / contain", width: "31px"}}>
                 </button>
                 <ReactTooltip place="top" id="figma" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
@@ -196,15 +189,15 @@ const Skills = () => {
                 </ReactTooltip>
               </div>
               <div className="skill">
-                <button data-tip='VS Code' data-for="vscode" style={{background: "url('https://api.iconify.design/vscode-icons:file-type-vscode.svg') no-repeat center center / contain", width: "34px"}}>
+                <button data-tip='NPM' data-for="npm" style={{background: "url('https://api.iconify.design/logos:npm-icon.svg') no-repeat center center / contain", width: "32px"}}>
                 </button>
-                <ReactTooltip place="top" id="vscode" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
+                <ReactTooltip place="top" id="npm" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
               <div className="skill">
-                <button data-tip='Chrome' data-for="chrome" style={{background: "url('https://api.iconify.design/logos:chrome.svg') no-repeat center center / contain", width: "32px"}}>
+                <button data-tip='VS Code' data-for="vscode" style={{background: "url('https://api.iconify.design/vscode-icons:file-type-vscode.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
-                <ReactTooltip place="top" id="chrome" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
+                <ReactTooltip place="top" id="vscode" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
             </div>
