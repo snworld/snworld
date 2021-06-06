@@ -76,7 +76,7 @@ const Skills = () => {
                 <ReactTooltip place="top" id="vue" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              </*<div className="skill">
+              {/*<div className="skill">
                 <button data-tip='TypeScript' data-for="ts" style={{background: "url('https://api.iconify.design/logos:typescript-icon.svg') no-repeat center center / contain", width: "32px"}}>
                 </button>
                 <ReactTooltip place="top" id="ts" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
