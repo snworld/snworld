@@ -34,12 +34,12 @@ const Skills = () => {
                 <ReactTooltip place="top" id="tailwindcss" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {/*<div className="skill">
                 <button data-tip='Material UI' data-for="materialui" style={{background: "url('https://api.iconify.design/logos:material-ui.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="materialui" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>*/}
               <div className="skill">
                 <button data-tip='JavaScript' data-for="javascript" style={{background: "url('https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png') no-repeat center center / contain", width: "32px"}}>
                 </button>
@@ -64,7 +64,7 @@ const Skills = () => {
                 <ReactTooltip place="top" id="redux" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {/*<div className="skill">
                 <button data-tip='Angular JS' data-for="angular" style={{background: "url('https://api.iconify.design/logos:angular-icon.svg') no-repeat center center / contain", width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="angular" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
@@ -81,7 +81,7 @@ const Skills = () => {
                 </button>
                 <ReactTooltip place="top" id="ts" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ const Skills = () => {
                 <ReactTooltip place="top" id="django" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {/*<div className="skill">
                 <button data-tip='Flask' data-for="flask" style={{background: `url('https://api.iconify.design/cib:flask.svg?color=%23eee') no-repeat center center / contain`, width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="flask" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
@@ -119,19 +119,19 @@ const Skills = () => {
                 </button>
                 <ReactTooltip place="top" id="spring-boot" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>*/}
               <div className="skill">
                 <button data-tip='Laravel' data-for="laravel" style={{background: `url('https://api.iconify.design/logos:laravel.svg') no-repeat center center / contain`, width: "32px"}}>
                 </button>
                 <ReactTooltip place="top" id="laravel" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {/*<div className="skill">
                 <button data-tip='CodeIgniter' data-for="symfony" style={{background: `url('https://api.iconify.design/cib:codeigniter.svg?color=%23dd4814') no-repeat center center / contain`, width: "34px"}}>
                 </button>
                 <ReactTooltip place="top" id="symfony" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>*/}
               <div className="skill">
                 <button data-tip='MySQL' data-for="mysql" style={{background: "url('https://api.iconify.design/cib:mysql.svg?color=%23fff') no-repeat center center / contain", width: "38px"}}>
                 </button>
@@ -150,12 +150,12 @@ const Skills = () => {
                 <ReactTooltip place="top" id="postgresql" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
               </div>
-              <div className="skill">
+              {/*<div className="skill">
                 <button data-tip='AWS' data-for="aws" style={{background: `url('${aws}') no-repeat center center / contain`, width: "42px"}}>
                 </button>
                 <ReactTooltip place="top" id="aws" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                 </ReactTooltip>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
