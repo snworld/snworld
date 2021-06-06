@@ -1,6 +1,6 @@
 import React from 'react'
 import htmlcss from '../img/html+css.svg'
-import aws from '../img/aws2.svg'
+// import aws from '../img/aws2.svg'
 import ReactTooltip from 'react-tooltip'
 
 
