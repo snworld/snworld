@@ -53,7 +53,9 @@ const ProjectPageRu = () => {
                 <hr />
                 <ul>
                   { project.techList.map(tech => (
-                    <li key={tech}>{ tech }</li>
+                    <li key={tech}>
+                      <span>{ tech }</span>
+                    </li>
                   )) }
                 </ul>
               </div>
@@ -62,7 +64,9 @@ const ProjectPageRu = () => {
                 <hr />
                 <ul>
                   { project.details.map(detail => (
-                    <li key={detail}>{ detail }</li>
+                    <li key={detail}>
+                      <span>{ detail }</span>
+                    </li>
                   )) }
                 </ul>
               </div>

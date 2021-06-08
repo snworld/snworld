@@ -8,7 +8,7 @@ const ProjectEn = ({ project }) => {
   return (
     <>
       <div className="project col-md-4">
-        <div className="overlay two-buttons" style={{borderColor: "aqua"}}>
+        <div className="overlay two-buttons" style={{borderColor: "#00ff40"}}>
           <img src={`data:image/png;base64,${project.thumbnail}`} alt="checklist" className="img-fluid m-auto d-block" />
           <div className="ovrly"></div>
           <div className="buttons">

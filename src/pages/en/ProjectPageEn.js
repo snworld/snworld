@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
 import { getProjects } from '../../actions/projects'
-import { useParams } from "react-router-dom";
+import { useParams  } from "react-router-dom";
 
 const ProjectPageEn = () => {
 
@@ -53,7 +53,9 @@ const ProjectPageEn = () => {
                 <hr />
                 <ul>
                   { project.techList.map(tech => (
-                    <li key={tech}>{ tech }</li>
+                    <li key={tech}>
+                      <span>{ tech }</span>
+                    </li>
                   )) }
                 </ul>
               </div>
@@ -62,7 +64,9 @@ const ProjectPageEn = () => {
                 <hr />
                 <ul>
                   { project.details.map(detail => (
-                    <li key={detail}>{ detail }</li>
+                    <li key={detail}>
+                      <span>{ detail }</span>
+                    </li>
                   )) }
                 </ul>
               </div>

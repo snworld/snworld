@@ -16,6 +16,8 @@ const ProjectsEn = () => {
     dispatch(getProjects())
   }, [dispatch])
 
+  // let newArr = projects.map((val, index, array) => )
+
   return (
     <>
       <NavbarEn />
@@ -65,7 +67,7 @@ const ProjectsEn = () => {
             <div className="m-auto my-5 d-flex flex-column align-items-center">
               <span className="loading-dots my-3" style={{fontSize: "14px"}}>Loading</span>
             </div>
-          ) : projects.map(project => (
+          ) : projects.slice(0).reverse().map(project => (
                 <Project key={project._id} project={project} />
               )) 
           }

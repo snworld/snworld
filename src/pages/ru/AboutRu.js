@@ -12,13 +12,13 @@ const AboutRu = () => {
       <div className="container about" style={{maxWidth: '800px'}}>
         <div className="row">
           <div className="col-md-8">
-            <p> 
-              Меня зовут Самир. Я являюсь <span>программистом</span> и <span>фанатом</span> ИТ. В основном я помогаю бизнес-агентствам, создавая все типы веб-приложений и программного обеспечения. Мне очень нравится узнавать что-то новое.
+            <p className="text-justify"> 
+              Меня зовут <span>Самир Нурбек</span> и я являюсь <span>фулстек-разработчиком</span> почти с 2-летним опытом. В основном занимаюсь созданием сайтов, шаблонов и скриптов разного типа. Мне очень нравится узнавать что-то новое в сфере IT и помогать людям.
               <br /><br />
-              В настоящее время я я интересуюсь возможностям фриланса и удаленной работы. Так что я доступен как фрилансер, и вы можете отправлять запросы. Вы можете связаться со мной по этому адресу: <a href="mailto:sn.world00@gmail.com"><span className="border-bottom border-info"> sn.world00@gmail.com</span></a>. Также не забудьте смотреть мои <Link to="/ru/skills"><span className="border-bottom border-info">навыки</span></Link> и <Link to="/ru/projects"><span className="border-bottom border-info">проекты</span></Link>. Спасибо!
+              На данный момент я ищу работу (или стажировку) на должности <span>бэкенд-разработчика</span> и хочу поскорее устроиться в уютную и дружелюбную компанию. По поводу сотрудничества и рабочих вопросов вы можете связаться со мной по этому адресу: <a href="mailto:sn.world00@gmail.com"><span className="border-bottom border-info"> sn.world00@gmail.com</span></a>. Также, не забудьте посмотреть мои <Link to="/ru/projects"><span className="border-bottom border-info">проекты</span></Link>. Я очень надеюсь стать вашим лучшим кандидатом :)
             </p>
           </div>
-          <div className="col-md-4" id="pictures">
+          <div className="col-md-4 pr-0" id="pictures">
             <img src={picture} alt="profile-1" className="img-fluid mt-md-0 mt-5 mx-auto d-block" />
           </div>
         </div>
