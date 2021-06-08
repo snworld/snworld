@@ -49,7 +49,7 @@ const ProjectPageRu = () => {
           <div className="col-12 my-3">
             <div className="lists d-flex flex-wrap justify-content-evenly">
               <div className="list"> 
-                <h6 className="fw-normal text-center">Technical List</h6>
+                <h6 className="fw-normal text-center">Течнический список</h6>
                 <hr />
                 <ul>
                   { project.techList.map(tech => (
@@ -60,7 +60,7 @@ const ProjectPageRu = () => {
                 </ul>
               </div>
               <div className="list">
-                <h6 className="fw-normal text-center">App Details</h6>
+                <h6 className="fw-normal text-center">Детали проекта</h6>
                 <hr />
                 <ul>
                   { project.details.map(detail => (
