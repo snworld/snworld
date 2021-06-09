@@ -79,7 +79,7 @@ const ProjectPageEn = () => {
                 Go Back
               </Link>
               <a href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
-                { project.demo }
+                Demo
                 <OpenOutline className="ionicon" color={'#fff'} />
               </a>
             </div>
