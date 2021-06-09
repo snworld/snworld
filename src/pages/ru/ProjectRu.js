@@ -12,7 +12,7 @@ const ProjectRu = ({ project }) => {
           <img src={`data:image/png;base64,${project.thumbnail}`} alt="checklist" className="img-fluid m-auto d-block" />
           <div className="ovrly"></div>
           <div className="buttons">
-            <a href={project.demo} rel="noreferrer" target="_blank" className="btn">Демо</a>
+            <a href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'} className="btn">Демо</a>
             <Link to={`/ru/project/${ project._id}`} className="btn">Детали</Link>
           </div>
         </div>

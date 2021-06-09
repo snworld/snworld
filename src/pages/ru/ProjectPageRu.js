@@ -33,7 +33,7 @@ const ProjectPageRu = () => {
           <div className="col-12" id="pictures">
             <div className="d-flex flex-wrap flex-column flex-sm-row justify-content-between align-items-center mb-4">
               <h6 className="fw-normal mb-2">{ project.name }</h6>
-              <a className="mb-2" href={project.demo} rel="noreferrer" target="_blank">
+              <a className="mb-2" href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
                 Demo
                 <OpenOutline className="ionicon" color={'#fff'} />
               </a>
@@ -78,7 +78,7 @@ const ProjectPageRu = () => {
                 <ArrowBackCircleOutline className="mt-1 ionicon" color={'#fff'} style={{display: "inline-block", verticalAlign: "middle"}} />
                 Go Back
               </Link>
-              <a href={project.demo} rel="noreferrer" target="_blank">
+              <a href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
                 { project.demo }
                 <OpenOutline className="ionicon" color={'#fff'} />
               </a>
