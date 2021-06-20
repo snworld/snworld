@@ -46,7 +46,7 @@ const ProjectsEn = () => {
           </button>
           <button href="#!" className="category" style={{color: "mediumspringgreen"}}>
             <span>WordPress</span>
-            <span className="number">0</span>
+            <span className="number">1</span>
           </button>
           <button href="#!" className="category" style={{color: "lightsalmon"}}>
             <span>eCommerce</span>

@@ -47,7 +47,7 @@ const ProjectPageEn = () => {
             />
           </div>
           <div className="col-12 my-3">
-            <div className="lists d-flex flex-wrap justify-content-evenly">
+            <div className="lists d-flex flex-wrap justify-content-center">
               <div className="list"> 
                 <h6 className="fw-normal text-center">Technical List</h6>
                 <hr />
