@@ -6,6 +6,21 @@ body{background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
   cursor: text;
 }
 
+.content header .main-navbar {
+  box-shadow:
+    0 0 4px #000,
+    inset -12px -12px 12px #191919,
+    inset 12px 12px 12px #191919 !important;
+}
+
+
+.container {
+  box-shadow:
+    0 0 4px #000,
+    inset -14px -14px 14px #191919,
+    inset 14px 14px 14px #191919 !important;
+}
+
 .content .skillset .services-content .service {
   border: 1px solid #00ff40;
 } 
@@ -58,6 +73,20 @@ body{background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
 	content: ' .';
 	font-size: 18px;
   animation: dots 1s steps(5, end) infinite;
+}
+
+@media (min-width: 768px) {
+  .personal-video {
+    min-width: 670px;
+    min-height: 400px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-video {
+    max-width: 100%;
+    height: auto; 
+  }
 }
 
 @keyframes dots {
