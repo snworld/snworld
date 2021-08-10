@@ -9,7 +9,7 @@ const ProjectEn = ({ project }) => {
     <>
       <div className="project col-md-4">
         <div className="overlay two-buttons" style={{borderColor: "#00ff40"}}>
-          <img src={`data:image/png;base64,${project.thumbnail}`} alt="checklist" className="img-fluid m-auto d-block" />
+          <img src="../../img/projects/rps.png" alt="checklist" className="img-fluid m-auto d-block" />
           <div className="ovrly"></div>
           <div className="buttons">
             <a href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'} className="btn">View Demo</a>
