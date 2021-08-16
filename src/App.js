@@ -1,4 +1,4 @@
-import Lang from './pages/Lang'
+// import Lang from './pages/Lang'
 import AboutEn from './pages/en/AboutEn'
 import SkillsEn from './pages/en/SkillsEn'
 import ProjectsEn from './pages/en/ProjectsEn'
