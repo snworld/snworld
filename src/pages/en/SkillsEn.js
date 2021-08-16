@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarEn from '../../NavbarEn'
-import LangLinkEn from '../../LangLinkEn'
+// import LangLinkEn from '../../LangLinkEn'
 import htmlcss from '../../img/html+css.svg'
 // import aws from '../../img/aws2.svg'
 import ReactTooltip from 'react-tooltip'
@@ -368,7 +368,6 @@ const SkillsEn = () => {
         </div>
         
       </div>
-      <LangLinkEn />
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import NavbarEn from '../../NavbarEn'
-import LangLinkEn from '../../LangLinkEn'
+// import LangLinkEn from '../../LangLinkEn'
 import Viewer from 'react-viewer';
 import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
@@ -86,7 +86,6 @@ const ProjectPageEn = () => {
           </div>
         </div>
       </div>
-      <LangLinkEn />
     </>
   )
 }

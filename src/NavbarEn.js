@@ -10,19 +10,19 @@ const NavbarEn = () => {
       <div className="main-navbar" style={{position: "relative"}}>
         <ul className="nav flex-wrap justify-content-center">
           <li className="nav-item">
-            <NavLink exact to="/en" activeClassName='active' className="nav-link about-link">
+            <NavLink exact to="" activeClassName='active' className="nav-link about-link">
               <PersonCircleOutline className="ionicon" color={'#fff'} />
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact to="/en/skills" activeClassName='active' className="nav-link">
+            <NavLink exact to="/skills" activeClassName='active' className="nav-link">
               <ConstructOutline className="ionicon" color={'#fff'} />
               Skillset
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact to="/en/projects" activeClassName='active' className="nav-link">
+            <NavLink exact to="/projects" activeClassName='active' className="nav-link">
               <ReceiptOutline className="ionicon" color={'#fff'} />
               Projects
             </NavLink>
@@ -34,7 +34,7 @@ const NavbarEn = () => {
             </NavLink>
           </li>*/}
           <li className="nav-item">
-            <NavLink exact to="/en/contact" activeClassName='active' className="nav-link">
+            <NavLink exact to="/contact" activeClassName='active' className="nav-link">
               <ChatbubblesOutline className="ionicon" color={'#fff'} />
               Contact
             </NavLink>

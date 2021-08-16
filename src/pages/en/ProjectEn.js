@@ -1,5 +1,5 @@
 import React from 'react'
-import LangLinkEn from '../../LangLinkEn'
+// import LangLinkEn from '../../LangLinkEn'
 import { Link } from 'react-router-dom'
 
 
@@ -17,7 +17,6 @@ const ProjectEn = ({ project }) => {
           </div>
         </div>
       </div>
-      <LangLinkEn />
     </>
   )
 }

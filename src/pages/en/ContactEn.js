@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import NavbarEn from '../../NavbarEn'
-import LangLinkEn from '../../LangLinkEn'
+// import LangLinkEn from '../../LangLinkEn'
 import axios from 'axios'
 
 const ContactEn = () => {
@@ -86,7 +86,6 @@ const ContactEn = () => {
           Email is sent successfully and we will<br /> try to respond as soon as possible
         </p>
       </div>
-      <LangLinkEn />
     </>
   )
 }
