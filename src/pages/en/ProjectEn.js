@@ -12,7 +12,7 @@ const ProjectEn = ({ project }) => {
           <img src={`projects/${project.thumbnail}`} alt={project.name} className="img-fluid m-auto d-block" />
           <div className="ovrly"></div>
           <div className="buttons">
-            <a href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'} className="btn">View Demo</a>
+            <a href={`project/{project.id}`} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'} className="btn">View Demo</a>
             <Link to={`/project/${ project.id}`} className="btn">Read More</Link>
           </div>
         </div>
