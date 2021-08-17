@@ -13,7 +13,7 @@ const ProjectEn = ({ project }) => {
           <div className="ovrly"></div>
           <div className="buttons">
             <a href={`project/{project.id}`} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'} className="btn">View Demo</a>
-            <Link to={`/project/${ project.id}`} className="btn">Read More</Link>
+            <Link to={`project/${project.id}`} className="btn">Read More</Link>
           </div>
         </div>
       </div>
