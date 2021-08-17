@@ -6,88 +6,66 @@ import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
-import { getProjects } from '../../actions/projects'
-import { useParams  } from "react-router-dom";
+import { withRouter  } from "react-router-dom";
 
-const ProjectPageEn = () => {
+class ProjectPageEn extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
 
-  const [visibleProject, setVisibleProject] = useState(false)
+    }
+    this.getProjects = this.getProjects.bind(this)
+  }
 
-  const projects = useSelector(state => state.projects)
+  async getProjects() {
+    const res = await fetch("../projects.json")
+    const data = await res.json()
+    return data.projects
+  }
 
-  const dispatch = useDispatch()
+  async componentDidMount() {
+    const projectid = this.props.match.params.projectID
 
-  useEffect(() =>  {
-    dispatch(getProjects())
-  }, [dispatch])
+    let allProjects = await this.getProjects()
+    allProjects.filter(project => project.id === projectid && this.setState(project))
+  }
 
-  const { projectID } = useParams()
+  render() {
 
-  const project = projects.find(x => x._id === projectID )
+    const project = this.state
 
-  return (
-    <>
-      <NavbarEn />
-      <div className="container project-single" style={{maxWidth: "750px"}}>
-        <div className="row">
-          <div className="col-12" id="pictures">
-            <div className="d-flex flex-wrap flex-column flex-sm-row justify-content-between align-items-center mb-4">
-              <h6 className="fw-normal mb-2">{ project.name }</h6>
-              <a className="mb-2" href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
-                Demo
-                <OpenOutline className="ionicon" color={'#fff'} />
-              </a>
-            </div>
-            <img onClick={() => { setVisibleProject(true); } } src={`data:image/png;base64,${ project.thumbnail }`} alt="project-image1" className="img-fluid d-block" style={{width: "700px"}} />
-            <Viewer
-              visible={visibleProject}
-              onClose={() => { setVisibleProject(false); } }
-              images={[{src: `data:image/png;base64,${ project.thumbnail }`}]}
-              zoomable={false} attribute={false} rotatable={false} scalable={false} noResetZoomAfterChange={false}
-            />
-          </div>
-          <div className="col-12 my-3">
-            <div className="lists d-flex flex-wrap justify-content-center">
-              <div className="list"> 
-                <h6 className="fw-normal text-center">Technical List</h6>
-                <hr />
-                <ul>
-                  { project.techList.map(tech => (
-                    <li key={tech}>
-                      <span>{ tech }</span>
-                    </li>
-                  )) }
-                </ul>
+    return (
+      <>
+        <NavbarEn />
+        <div className="container project-single" style={{maxWidth: "750px"}}>
+          <div className="row">
+            <div className="col-12" id="pictures">
+              <div className="d-flex flex-wrap flex-column flex-sm-row justify-content-between align-items-center mb-4">
+                <h6 className="fw-normal mb-2">{ project.name }</h6>
+                <a className="mb-2" href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
+                  Demo
+                  <OpenOutline className="ionicon" color={'#fff'} />
+                </a>
               </div>
-              <div className="list">
-                <h6 className="fw-normal text-center">App Details</h6>
-                <hr />
-                <ul>
-                  { project.details.map(detail => (
-                    <li key={detail}>
-                      <span>{ detail }</span>
-                    </li>
-                  )) }
-                </ul>
-              </div>
+              <img src={`/projects/${ project.thumbnail }`} alt={`projects/${ project.thumbnail }`} className="img-fluid d-block" style={{width: "700px"}} />
             </div>
-          </div>
-          <div className="col-12">
-            <div className="d-flex flex-column flex-sm-row align-items-center justify-content-between">
-              <Link to="/en/projects">
-                <ArrowBackCircleOutline className="mt-1 ionicon" color={'#fff'} style={{display: "inline-block", verticalAlign: "middle"}} />
-                Go Back
-              </Link>
-              <a href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
-                Demo
-                <OpenOutline className="ionicon" color={'#fff'} />
-              </a>
+            <div className="col-12 mt-3">
+              <div className="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                <Link to="/projects">
+                  <ArrowBackCircleOutline className="mt-1 ionicon" color={'#fff'} style={{display: "inline-block", verticalAlign: "middle"}} />
+                  Go Back
+                </Link>
+                <a href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
+                  Demo
+                  <OpenOutline className="ionicon" color={'#fff'} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </>
-  )
+      </>
+    )
+  }
 }
 
-export default ProjectPageEn
+export default withRouter(ProjectPageEn)
