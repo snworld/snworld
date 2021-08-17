@@ -1,0 +1,378 @@
+{
+  "projects" : [
+    {
+      "id": "1",
+      "name": "CheckList - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "checklist.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "2",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "book-store.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "3",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "file-upload.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "4",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "instagram-clone.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "5",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "login-register.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "6",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "comment-system.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "7",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "blog.png",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "8",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "blog-wp.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "9",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "crm.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "10",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "chymchyk.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "11",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "todo-app.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "12",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "signin-signup.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "13",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "themo.png",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "14",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "plumbing-service.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "15",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "dental-clinic.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "16",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "rps.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "17",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "bio-cushions.PNG",
+      "techList": [
+        "React JS UI Framework",
+        "Ioinicons Trash Icon",
+        "Neucha Google Fonts API"
+      ],
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    },
+    {
+      "id": "18",
+      "name": "Hey - Task Tracking Web App",
+      "demo": "https://sn-checklist.netlify.app/",
+      "thumbnail": "di-group.PNG",
+      "techList": "React JS UI Framework,Ioinicons Trash Icon,Neucha Google Fonts API",
+      "details": [
+        "Single Page App",
+        "Serverless and Static",
+        "Hosted in Netlify"
+      ],
+      "tags": [
+        "static",
+        "frontend"
+      ],
+      "created": "March 3, 2021"
+    }
+  ]
+}
