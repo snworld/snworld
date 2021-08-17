@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import NavbarEn from '../../NavbarEn'
 // import LangLinkEn from '../../LangLinkEn'
-import Viewer from 'react-viewer';
 import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
-import { useSelector } from 'react-redux'
 import { withRouter  } from "react-router-dom";
 
 class ProjectPageEn extends React.Component {

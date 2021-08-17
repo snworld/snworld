@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import NavbarEn from '../../NavbarEn'
 import Project from './ProjectEn'
-import axios from 'axios'
 
 class ProjectsEn extends React.Component {
   constructor(props){
