@@ -31,19 +31,19 @@ class ProjectsEn extends React.Component {
           <div className="categories d-flex flex-wrap justify-content-center">
             <button href="#!" className="category active">
               <span>All</span>
-              {/*<span className="number">{ projects.length }</span>*/}
+              {<span className="number">18</span>}
             </button>
             <button href="#!" className="category" style={{color: "darkorange"}}>
               <span>Front End</span>
-              <span className="number">11</span>
+              <span className="number">18</span>
             </button>
             <button href="#!" className="category" style={{color: "aqua"}}>
               <span>Back End</span>
-              <span className="number">7</span>
+              <span className="number">11</span>
             </button>
             <button href="#!" className="category" style={{color: "tomato"}}>
               <span>Full Stack</span>
-              <span className="number">7</span>
+              <span className="number">10</span>
             </button>
             <button href="#!" className="category" style={{color: "deepskyblue"}}>
               <span>REST API</span>
@@ -55,11 +55,11 @@ class ProjectsEn extends React.Component {
             </button>
             <button href="#!" className="category" style={{color: "lightsalmon"}}>
               <span>eCommerce</span>
-              <span className="number">1</span>
+              <span className="number">2</span>
             </button>
             <button href="#!" className="category" style={{color: "#ff3e3e"}}>
               <span>Static</span>
-              <span className="number">4</span>
+              <span className="number">6</span>
             </button>
             <button href="#!" className="category" style={{color: "magenta"}}>
               <span>Games</span>
