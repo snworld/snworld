@@ -236,7 +236,7 @@ const SkillsEn = () => {
           {/* Hobbies */}
           <div className="col-md-6 mt-3 mt-md-5">
             <div className="skills-group">
-              <h6 className="text-center">Interested in</h6>
+              <h6 className="text-center">Hobbies</h6>
               <div className="skills mt-3 text-center">
 
                 <div className="skill">
@@ -382,7 +382,6 @@ const SkillsEn = () => {
               </div>
             </div>
           </div>
-        
         </div>
         
       </div>
