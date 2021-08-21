@@ -36,12 +36,6 @@ const SkillsEn = () => {
                   </ReactTooltip>
                 </div>
                 <div className="skill">
-                  <button data-tip='Material UI' data-for="materialui" style={{background: "url('https://api.iconify.design/logos:material-ui.svg') no-repeat center center / contain", width: "34px"}}>
-                  </button>
-                  <ReactTooltip place="top" id="materialui" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
-                  </ReactTooltip>
-                </div>
-                <div className="skill">
                   <button data-tip='Sass' data-for="sass" style={{background: "url('https://api.iconify.design/logos:sass.svg') no-repeat center center / contain"}}>
                   </button>
                   <ReactTooltip place="top" id="sass" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
@@ -69,6 +63,12 @@ const SkillsEn = () => {
                   <button data-tip='Redux' data-for="redux" style={{background: "url('https://api.iconify.design/logos:redux.svg') no-repeat center center / contain", width: "34px"}}>
                   </button>
                   <ReactTooltip place="top" id="redux" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
+                  </ReactTooltip>
+                </div>
+                <div className="skill">
+                  <button data-tip='NPM' data-for="npm" style={{background: "url('https://api.iconify.design/logos/npm-icon.svg') no-repeat center center / contain", width: "34px"}}>
+                  </button>
+                  <ReactTooltip place="top" id="npm" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                   </ReactTooltip>
                 </div>
                 <div className="skill">
