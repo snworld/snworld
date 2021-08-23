@@ -108,26 +108,26 @@ const SkillsEn = () => {
                   </button>
                   <ReactTooltip place="top" id="next-js" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                   </ReactTooltip>
-                </div>
+                </div>*/}
                 <div className="skill">
                   <button data-tip='Python' data-for="python" style={{background: `url('https://api.iconify.design/vscode-icons/file-type-python.svg') no-repeat center center / contain`, width: "34px"}}>
                   </button>
                   <ReactTooltip place="top" id="python" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                   </ReactTooltip>
-                </div>*/}
+                </div>
                 <div className="skill">
                   <button data-tip='Django' data-for="django" style={{background: `url('https://api.iconify.design/vscode-icons:file-type-django.svg') no-repeat center center / contain`, width: "40px"}}>
                   </button>
                   <ReactTooltip place="top" id="django" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                   </ReactTooltip>
                 </div>
-                <div className="skill">
+                {/*<div className="skill">
                   <button data-tip='Laravel' data-for="laravel" style={{background: `url('https://api.iconify.design/logos:laravel.svg') no-repeat center center / contain`, width: "32px"}}>
                   </button>
                   <ReactTooltip place="top" id="laravel" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
                   </ReactTooltip>
                 </div>
-                {/*<div className="skill">
+                <div className="skill">
                   <button data-tip='CodeIgniter' data-for="symfony" style={{background: `url('https://api.iconify.design/cib:codeigniter.svg?color=%23dd4814') no-repeat center center / contain`, width: "34px"}}>
                   </button>
                   <ReactTooltip place="top" id="symfony" effect="solid" backgroundColor='#000' border borderColor='#fff' arrowColor='#000'>
