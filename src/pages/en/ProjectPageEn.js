@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarEn from '../../NavbarEn'
-// import LangLinkEn from '../../LangLinkEn'
+import LangLinkEn from '../../LangLinkEn'
 import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
 import { withRouter  } from "react-router-dom";
@@ -60,6 +60,7 @@ class ProjectPageEn extends React.Component {
             </div>
           </div>
         </div>
+        <LangLinkEn />
       </>
     )
   }
