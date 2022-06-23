@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarEn from '../../NavbarEn'
+import LangLinkEn from '../../LangLinkEn'
 import picture from '../../img/picture.png'
 import picture2 from '../../img/picture2.jpg'
 import picture3 from '../../img/picture3.png'
@@ -31,6 +32,7 @@ const AboutEn = () => {
           </div>
         </div>
       </div>
+      <LangLinkEn />
     </>
   )
 }
