@@ -16,13 +16,13 @@ const NavbarEn = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact to="/skills" activeClassName='active' className="nav-link">
+            <NavLink exact to="/en/skills" activeClassName='active' className="nav-link">
               <ConstructOutline className="ionicon" color={'#fff'} />
               Skillset
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact to="/projects" activeClassName='active' className="nav-link">
+            <NavLink exact to="/en/projects" activeClassName='active' className="nav-link">
               <ReceiptOutline className="ionicon" color={'#fff'} />
               Projects
             </NavLink>
@@ -34,7 +34,7 @@ const NavbarEn = () => {
             </NavLink>
           </li>*/}
           <li className="nav-item">
-            <NavLink exact to="/contact" activeClassName='active' className="nav-link">
+            <NavLink exact to="/en/contact" activeClassName='active' className="nav-link">
               <ChatbubblesOutline className="ionicon" color={'#fff'} />
               Contact
             </NavLink>
