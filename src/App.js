@@ -23,12 +23,12 @@ function App() {
       <div className="content">
         <Switch>
           <Route exact path="/" component={Lang} />
-          <Route exact path="/" component={AboutEn} />
-          <Route exact path="/skills" component={SkillsEn} />
-          <Route path="/projects" component={ProjectsEn} />
-          <Route exact path="/contact" component={ContactEn} />
-          <Route exact path="/video" component={Video} />
-          <Route path="/project/:projectID" component={ProjectPageEn} />
+          <Route exact path="/en" component={AboutEn} />
+          <Route exact path="/en/skills" component={SkillsEn} />
+          <Route path="/en/projects" component={ProjectsEn} />
+          <Route exact path="/en/contact" component={ContactEn} />
+          <Route exact path="/en/video" component={Video} />
+          <Route path="/en/project/:projectID" component={ProjectPageEn} />
           <Route exact path="/ru" component={AboutRu} />
           <Route exact path="/ru/skills" component={SkillsRu} />
           <Route path="/ru/projects" component={ProjectsRu} />
