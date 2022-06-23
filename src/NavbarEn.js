@@ -10,7 +10,7 @@ const NavbarEn = () => {
       <div className="main-navbar" style={{position: "relative"}}>
         <ul className="nav flex-wrap justify-content-center">
           <li className="nav-item">
-            <NavLink exact to="" activeClassName='active' className="nav-link about-link">
+            <NavLink exact to="/en" activeClassName='active' className="nav-link about-link">
               <PersonCircleOutline className="ionicon" color={'#fff'} />
               About
             </NavLink>
