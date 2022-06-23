@@ -32,7 +32,7 @@ class ProjectsRu extends React.Component {
           <div className="categories d-flex flex-wrap justify-content-center">
             <button href="#!" className="category active">
               <span>All</span>
-              {//<span className="number">{ projects.length }</span>}
+              {/*<span className="number">{ projects.length }</span>*/}
             </button>
             <button href="#!" className="category" style={{color: "darkorange"}}>
               <span>Front End</span>
