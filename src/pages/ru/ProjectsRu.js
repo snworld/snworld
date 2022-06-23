@@ -32,7 +32,7 @@ class ProjectsRu extends React.Component {
           <div className="categories d-flex flex-wrap justify-content-center">
             <button href="#!" className="category active">
               <span>All</span>
-              <span className="number">{ projects.length }</span>
+              {//<span className="number">{ projects.length }</span>}
             </button>
             <button href="#!" className="category" style={{color: "darkorange"}}>
               <span>Front End</span>
@@ -69,11 +69,11 @@ class ProjectsRu extends React.Component {
           </div>
 
           <div className="projects-grid row">
-            { !projects.length ? (
+            { !this.state.allProjects.length ? (
               <div className="m-auto my-5 d-flex flex-column align-items-center">
                 <span className="loading-dots my-3" style={{fontSize: "14px"}}>Loading</span>
               </div>
-            ) : projects.slice(0).reverse().map(project => (
+            ) : this.state.allProjects.slice(0).reverse().map(project => (
                   <ProjectRu key={project._id} project={project} />
                 )) 
             }
