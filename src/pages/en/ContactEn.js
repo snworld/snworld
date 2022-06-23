@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import NavbarEn from '../../NavbarEn'
-// import LangLinkEn from '../../LangLinkEn'
+import LangLinkEn from '../../LangLinkEn'
 import axios from 'axios'
 
 const ContactEn = () => {
@@ -87,6 +87,7 @@ const ContactEn = () => {
         </p>
       </div>
     </>
+    <LangLinkEn />
   )
 }
 
