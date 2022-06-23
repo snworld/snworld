@@ -86,8 +86,8 @@ const ContactEn = () => {
           Email is sent successfully and we will<br /> try to respond as soon as possible
         </p>
       </div>
+      <LangLinkEn />
     </>
-    <LangLinkEn />
   )
 }
 
