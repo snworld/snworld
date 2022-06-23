@@ -22,7 +22,7 @@ function App() {
     <Router>
       <div className="content">
         <Switch>
-          {/*<Route exact path="/" component={Lang} />*/}
+          <Route exact path="/" component={Lang} />
           <Route exact path="/" component={AboutEn} />
           <Route exact path="/skills" component={SkillsEn} />
           <Route path="/projects" component={ProjectsEn} />
