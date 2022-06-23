@@ -67,4 +67,4 @@ class ProjectPageEn extends React.Component {
   }
  }
 
-export default ProjectPageRu
+export default withRouter(ProjectPageEn)
