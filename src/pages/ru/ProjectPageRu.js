@@ -1,10 +1,9 @@
 import React from 'react'
 import NavbarRu from '../../NavbarRu'
 import LangLinkRu from '../../LangLinkRu'
-import Viewer from 'react-viewer';
 import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
-import { useParams } from "react-router-dom";
+import { withRouter } from "react-router-dom"
 
 class ProjectPageEn extends React.Component {
 
@@ -48,32 +47,6 @@ class ProjectPageEn extends React.Component {
               </div>
               <img src={`/projects/${ project.thumbnail }`} alt={`projects/${ project.thumbnail }`} className="img-fluid d-block" style={{width: "700px"}} />
             </div>
-//             <div className="col-12 my-3">
-//               <div className="lists d-flex flex-wrap justify-content-center">
-//                 <div className="list"> 
-//                   <h6 className="fw-normal text-center">Течнический список</h6>
-//                   <hr />
-//                   <ul>
-//                     { project.techList.map(tech => (
-//                       <li key={tech}>
-//                         <span>{ tech }</span>
-//                       </li>
-//                     )) }
-//                   </ul>
-//                 </div>
-//                 <div className="list">
-//                   <h6 className="fw-normal text-center">Детали проекта</h6>
-//                   <hr />
-//                   <ul>
-//                     { project.details.map(detail => (
-//                       <li key={detail}>
-//                         <span>{ detail }</span>
-//                       </li>
-//                     )) }
-//                   </ul>
-//                 </div>
-//               </div>
-//             </div>
             <div className="col-12">
               <div className="d-flex flex-column flex-sm-row align-items-center justify-content-between">
                 <Link to="/ru/projects">
