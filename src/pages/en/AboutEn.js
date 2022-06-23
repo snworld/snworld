@@ -1,7 +1,7 @@
 import React from 'react'
 import NavbarEn from '../../NavbarEn'
 import picture from '../../img/picture.png'
-import picture2 from '../../img/picture2.jpg'
+import picture2 from '../../img/picture2.png'
 import picture3 from '../../img/picture3.jpg'
 import { Link } from 'react-router-dom'
 import Viewer from 'react-viewer'
