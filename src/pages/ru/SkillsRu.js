@@ -357,7 +357,7 @@ const SkillsRu = () => {
                       <span>Поддержки + гайды</span>
                     </li>
                     <li>
-                      <span>И много другие</span>
+                      <span>И многое другое</span>
                     </li>
                   </ul>
                 </div>
