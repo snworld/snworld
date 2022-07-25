@@ -38,7 +38,7 @@ class ProjectPageEn extends React.Component {
           <div className="row">
             <div className="col-12" id="pictures">
               <div className="d-flex flex-wrap flex-column flex-sm-row justify-content-between align-items-center mb-4">
-                <h6 className="fw-normal mb-2">{ project.name }</h6>
+                <h6 className="fw-normal mb-2"> project_name</h6>
                 {/*<a className="mb-2" href={project.demo} rel="noreferrer" target={project.demo !== '#' ? '_blank' : '_self'}>
                   Demo
                   <OpenOutline className="ionicon" color={'#fff'} />
