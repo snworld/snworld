@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarRu from '../../NavbarRu'
 import LangLinkRu from '../../LangLinkRu'
 import htmlcss from '../../img/html+css.svg'
-// import aws from '../../img/aws2.svg'
+import aws from '../../img/aws2.svg'
 import ReactTooltip from 'react-tooltip'
 
 
