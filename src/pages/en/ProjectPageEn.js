@@ -2,6 +2,7 @@ import React from 'react'
 import NavbarEn from '../../NavbarEn'
 import LangLinkEn from '../../LangLinkEn'
 // import { OpenOutline, ArrowBackCircleOutline } from 'react-ionicons'
+import { ArrowBackCircleOutline } from 'react-ionicons'
 import { Link } from 'react-router-dom'
 import { withRouter  } from "react-router-dom";
 
